@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4FCC8702C81A34C002708B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCC86F2C81A34C002708B5 /* AppDelegate.swift */; };
+		B4FCC8722C81A34C002708B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCC8712C81A34C002708B5 /* SceneDelegate.swift */; };
+		B4FCC8742C81A34C002708B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCC8732C81A34C002708B5 /* ViewController.swift */; };
+		B4FCC8772C81A34C002708B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B4FCC8762C81A34C002708B5 /* Base */; };
+		B4FCC8792C81A34D002708B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FCC8782C81A34D002708B5 /* Assets.xcassets */; };
+		B4FCC87C2C81A34D002708B5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B4FCC87B2C81A34D002708B5 /* Base */; };
+		B4FCC8872C81A34D002708B5 /* Hilesiz_ZarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCC8862C81A34D002708B5 /* Hilesiz_ZarTests.swift */; };
+		B4FCC8912C81A34D002708B5 /* Hilesiz_ZarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCC8902C81A34D002708B5 /* Hilesiz_ZarUITests.swift */; };
+		B4FCC8932C81A34D002708B5 /* Hilesiz_ZarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FCC8922C81A34D002708B5 /* Hilesiz_ZarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4FCC8832C81A34D002708B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4FCC8642C81A34C002708B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4FCC86B2C81A34C002708B5;
+			remoteInfo = "Hilesiz Zar";
+		};
+		B4FCC88D2C81A34D002708B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4FCC8642C81A34C002708B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4FCC86B2C81A34C002708B5;
+			remoteInfo = "Hilesiz Zar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4FCC86C2C81A34C002708B5 /* Hilesiz Zar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hilesiz Zar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCC86F2C81A34C002708B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4FCC8712C81A34C002708B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4FCC8732C81A34C002708B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4FCC8762C81A34C002708B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4FCC8782C81A34D002708B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4FCC87B2C81A34D002708B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4FCC87D2C81A34D002708B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FCC8822C81A34D002708B5 /* Hilesiz ZarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hilesiz ZarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCC8862C81A34D002708B5 /* Hilesiz_ZarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hilesiz_ZarTests.swift; sourceTree = "<group>"; };
+		B4FCC88C2C81A34D002708B5 /* Hilesiz ZarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hilesiz ZarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FCC8902C81A34D002708B5 /* Hilesiz_ZarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hilesiz_ZarUITests.swift; sourceTree = "<group>"; };
+		B4FCC8922C81A34D002708B5 /* Hilesiz_ZarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hilesiz_ZarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4FCC8692C81A34C002708B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCC87F2C81A34D002708B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCC8892C81A34D002708B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4FCC8632C81A34C002708B5 = {
+			isa = PBXGroup;
+			children = (
+				B4FCC86E2C81A34C002708B5 /* Hilesiz Zar */,
+				B4FCC8852C81A34D002708B5 /* Hilesiz ZarTests */,
+				B4FCC88F2C81A34D002708B5 /* Hilesiz ZarUITests */,
+				B4FCC86D2C81A34C002708B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4FCC86D2C81A34C002708B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCC86C2C81A34C002708B5 /* Hilesiz Zar.app */,
+				B4FCC8822C81A34D002708B5 /* Hilesiz ZarTests.xctest */,
+				B4FCC88C2C81A34D002708B5 /* Hilesiz ZarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4FCC86E2C81A34C002708B5 /* Hilesiz Zar */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCC86F2C81A34C002708B5 /* AppDelegate.swift */,
+				B4FCC8712C81A34C002708B5 /* SceneDelegate.swift */,
+				B4FCC8732C81A34C002708B5 /* ViewController.swift */,
+				B4FCC8752C81A34C002708B5 /* Main.storyboard */,
+				B4FCC8782C81A34D002708B5 /* Assets.xcassets */,
+				B4FCC87A2C81A34D002708B5 /* LaunchScreen.storyboard */,
+				B4FCC87D2C81A34D002708B5 /* Info.plist */,
+			);
+			path = "Hilesiz Zar";
+			sourceTree = "<group>";
+		};
+		B4FCC8852C81A34D002708B5 /* Hilesiz ZarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCC8862C81A34D002708B5 /* Hilesiz_ZarTests.swift */,
+			);
+			path = "Hilesiz ZarTests";
+			sourceTree = "<group>";
+		};
+		B4FCC88F2C81A34D002708B5 /* Hilesiz ZarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4FCC8902C81A34D002708B5 /* Hilesiz_ZarUITests.swift */,
+				B4FCC8922C81A34D002708B5 /* Hilesiz_ZarUITestsLaunchTests.swift */,
+			);
+			path = "Hilesiz ZarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4FCC86B2C81A34C002708B5 /* Hilesiz Zar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCC8962C81A34D002708B5 /* Build configuration list for PBXNativeTarget "Hilesiz Zar" */;
+			buildPhases = (
+				B4FCC8682C81A34C002708B5 /* Sources */,
+				B4FCC8692C81A34C002708B5 /* Frameworks */,
+				B4FCC86A2C81A34C002708B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hilesiz Zar";
+			productName = "Hilesiz Zar";
+			productReference = B4FCC86C2C81A34C002708B5 /* Hilesiz Zar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4FCC8812C81A34D002708B5 /* Hilesiz ZarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCC8992C81A34D002708B5 /* Build configuration list for PBXNativeTarget "Hilesiz ZarTests" */;
+			buildPhases = (
+				B4FCC87E2C81A34D002708B5 /* Sources */,
+				B4FCC87F2C81A34D002708B5 /* Frameworks */,
+				B4FCC8802C81A34D002708B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FCC8842C81A34D002708B5 /* PBXTargetDependency */,
+			);
+			name = "Hilesiz ZarTests";
+			productName = "Hilesiz ZarTests";
+			productReference = B4FCC8822C81A34D002708B5 /* Hilesiz ZarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4FCC88B2C81A34D002708B5 /* Hilesiz ZarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4FCC89C2C81A34D002708B5 /* Build configuration list for PBXNativeTarget "Hilesiz ZarUITests" */;
+			buildPhases = (
+				B4FCC8882C81A34D002708B5 /* Sources */,
+				B4FCC8892C81A34D002708B5 /* Frameworks */,
+				B4FCC88A2C81A34D002708B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FCC88E2C81A34D002708B5 /* PBXTargetDependency */,
+			);
+			name = "Hilesiz ZarUITests";
+			productName = "Hilesiz ZarUITests";
+			productReference = B4FCC88C2C81A34D002708B5 /* Hilesiz ZarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4FCC8642C81A34C002708B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B4FCC86B2C81A34C002708B5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B4FCC8812C81A34D002708B5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B4FCC86B2C81A34C002708B5;
+					};
+					B4FCC88B2C81A34D002708B5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B4FCC86B2C81A34C002708B5;
+					};
+				};
+			};
+			buildConfigurationList = B4FCC8672C81A34C002708B5 /* Build configuration list for PBXProject "Hilesiz Zar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4FCC8632C81A34C002708B5;
+			productRefGroup = B4FCC86D2C81A34C002708B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4FCC86B2C81A34C002708B5 /* Hilesiz Zar */,
+				B4FCC8812C81A34D002708B5 /* Hilesiz ZarTests */,
+				B4FCC88B2C81A34D002708B5 /* Hilesiz ZarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4FCC86A2C81A34C002708B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCC8792C81A34D002708B5 /* Assets.xcassets in Resources */,
+				B4FCC87C2C81A34D002708B5 /* Base in Resources */,
+				B4FCC8772C81A34C002708B5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCC8802C81A34D002708B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCC88A2C81A34D002708B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4FCC8682C81A34C002708B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCC8742C81A34C002708B5 /* ViewController.swift in Sources */,
+				B4FCC8702C81A34C002708B5 /* AppDelegate.swift in Sources */,
+				B4FCC8722C81A34C002708B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCC87E2C81A34D002708B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCC8872C81A34D002708B5 /* Hilesiz_ZarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FCC8882C81A34D002708B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCC8912C81A34D002708B5 /* Hilesiz_ZarUITests.swift in Sources */,
+				B4FCC8932C81A34D002708B5 /* Hilesiz_ZarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4FCC8842C81A34D002708B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4FCC86B2C81A34C002708B5 /* Hilesiz Zar */;
+			targetProxy = B4FCC8832C81A34D002708B5 /* PBXContainerItemProxy */;
+		};
+		B4FCC88E2C81A34D002708B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4FCC86B2C81A34C002708B5 /* Hilesiz Zar */;
+			targetProxy = B4FCC88D2C81A34D002708B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4FCC8752C81A34C002708B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4FCC8762C81A34C002708B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4FCC87A2C81A34D002708B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4FCC87B2C81A34D002708B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4FCC8942C81A34D002708B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4FCC8952C81A34D002708B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4FCC8972C81A34D002708B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM25M3S5KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hilesiz Zar/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hilesiz Zar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aytacbulanik.Hilesiz-Zar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B4FCC8982C81A34D002708B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM25M3S5KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hilesiz Zar/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Hilesiz Zar";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aytacbulanik.Hilesiz-Zar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B4FCC89A2C81A34D002708B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM25M3S5KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aytacbulanik.Hilesiz-ZarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hilesiz Zar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hilesiz Zar";
+			};
+			name = Debug;
+		};
+		B4FCC89B2C81A34D002708B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM25M3S5KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aytacbulanik.Hilesiz-ZarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hilesiz Zar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hilesiz Zar";
+			};
+			name = Release;
+		};
+		B4FCC89D2C81A34D002708B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM25M3S5KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aytacbulanik.Hilesiz-ZarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hilesiz Zar";
+			};
+			name = Debug;
+		};
+		B4FCC89E2C81A34D002708B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM25M3S5KY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aytacbulanik.Hilesiz-ZarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hilesiz Zar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4FCC8672C81A34C002708B5 /* Build configuration list for PBXProject "Hilesiz Zar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCC8942C81A34D002708B5 /* Debug */,
+				B4FCC8952C81A34D002708B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCC8962C81A34D002708B5 /* Build configuration list for PBXNativeTarget "Hilesiz Zar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCC8972C81A34D002708B5 /* Debug */,
+				B4FCC8982C81A34D002708B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCC8992C81A34D002708B5 /* Build configuration list for PBXNativeTarget "Hilesiz ZarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCC89A2C81A34D002708B5 /* Debug */,
+				B4FCC89B2C81A34D002708B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4FCC89C2C81A34D002708B5 /* Build configuration list for PBXNativeTarget "Hilesiz ZarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FCC89D2C81A34D002708B5 /* Debug */,
+				B4FCC89E2C81A34D002708B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4FCC8642C81A34C002708B5 /* Project object */;
+}
