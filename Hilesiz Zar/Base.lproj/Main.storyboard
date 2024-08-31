@@ -45,6 +45,9 @@
                                     <fontDescription key="titleFontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="36"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gwg-mp-J6t"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ccr-nz-qS2">
                                 <rect key="frame" x="122.66666666666669" y="139" width="148" height="60"/>
@@ -58,6 +61,9 @@
                                     <fontDescription key="titleFontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="36"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JJN-aA-B14"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -77,6 +83,12 @@
                             <constraint firstItem="OrG-RO-xJc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="woe-bE-tzy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonOutP1" destination="Ccr-nz-qS2" id="HKz-y1-hm0"/>
+                        <outlet property="buttonOutP2" destination="WgC-bO-mbR" id="QPs-ro-8Av"/>
+                        <outlet property="zarImageViewOne" destination="FfG-D3-JTk" id="92d-X2-3KX"/>
+                        <outlet property="zarImageViewTwo" destination="MVJ-vt-heK" id="aOD-TA-yZO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
