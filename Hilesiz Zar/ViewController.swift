@@ -17,7 +17,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        buttonOutP1.layer.cornerRadius = 8
+        buttonOutP2.layer.cornerRadius = 8
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {

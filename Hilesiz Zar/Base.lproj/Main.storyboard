@@ -19,14 +19,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Backgorund" translatesAutoresizingMaskIntoConstraints="NO" id="OrG-RO-xJc">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="FfG-D3-JTk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sagZar1" translatesAutoresizingMaskIntoConstraints="NO" id="FfG-D3-JTk">
                                 <rect key="frame" x="30" y="376" width="130" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="Ifl-tx-mmN"/>
                                     <constraint firstAttribute="height" constant="100" id="qed-mL-C6h"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceSix" translatesAutoresizingMaskIntoConstraints="NO" id="MVJ-vt-heK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="solZar1" translatesAutoresizingMaskIntoConstraints="NO" id="MVJ-vt-heK">
                                 <rect key="frame" x="233" y="376" width="130" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Yuo-1r-56B"/>
@@ -97,8 +97,8 @@
     </scenes>
     <resources>
         <image name="Backgorund" width="302" height="629.66668701171875"/>
-        <image name="DiceOne" width="100" height="100"/>
-        <image name="DiceSix" width="100" height="100"/>
+        <image name="sagZar1" width="43.333332061767578" height="43.333332061767578"/>
+        <image name="solZar1" width="43.333332061767578" height="43.333332061767578"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
