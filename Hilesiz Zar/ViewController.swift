@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     var solImages = [UIImage]()
     var sagImages = [UIImage]()
-    var solrandom = 0
+    var solRandom = 0
     var sagRandom = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +32,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        zarImageViewOne.image = solImages[3]
-        zarImageViewTwo.image = sagImages[5]
+        solRandom = Int.random(in: 0...5)
+        sagRandom = Int.random(in: 0...5)
+        zarImageViewOne.image = solImages[solRandom]
+        zarImageViewTwo.image = sagImages[sagRandom]
     }
     
 }
