@@ -19,11 +19,12 @@ class ViewController: UIViewController {
     var sagImages = [UIImage]()
     var solRandom = 0
     var sagRandom = 0
+    var controlBool = true
     override func viewDidLoad() {
         super.viewDidLoad()
         buttonOutP1.layer.cornerRadius = 8
         buttonOutP2.layer.cornerRadius = 8
-        
+        buttonOutP1.isHidden = controlBool
         for i in 1...6 {
             solImages.append(UIImage(named: "sagZar\(i)")!)
             sagImages.append(UIImage(named: "solZar\(i)")!)
@@ -32,10 +33,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        solRandom = Int.random(in: 0...5)
-        sagRandom = Int.random(in: 0...5)
-        zarImageViewOne.image = solImages[solRandom]
-        zarImageViewTwo.image = sagImages[sagRandom]
+        buttonOutP1.isHidden = !controlBool
+        buttonOutP2.isHidden = controlBool
+        zarImageViewOne.image = solImages.randomElement()
+        zarImageViewTwo.image = sagImages.randomElement()
+        controlBool = !controlBool
     }
     
 }
